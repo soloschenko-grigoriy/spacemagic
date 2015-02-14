@@ -1,0 +1,10 @@
+{
+    "require": {
+        "php": ">=5.3.0",
+        "php-console/php-console": "dev-master",
+        "slim/slim": "2.*"
+    },
+    "autoload": {
+      "psr-0": {"Application\\": "src/"}
+    }
+}

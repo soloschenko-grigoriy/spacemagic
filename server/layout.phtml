@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Let the game begin!</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  <script data-main="/js/config/main" src="/js/vendor/require/require.min.js"></script>
+</head>
+<body>
+  <div id="bootstrapped">
+    <script type="text/javascript">
+      var bootstrapped = {
+        me            : <?php echo $me ?>,
+        enemy         : <?php echo $enemy ?>,
+        turns         : <?php echo $turns ?>,
+        battle        : <?php echo $battle ?>,
+        myDrons       : <?php echo $myDrons ?>,
+        enemyDrons    : <?php echo $enemyDrons ?>,
+        modifications : <?php echo $modifications ?>,
+      }
+    </script>
+  </div>
+</body>
+</html>
